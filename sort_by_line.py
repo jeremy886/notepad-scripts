@@ -1,0 +1,6 @@
+lines_old = editor.getText().splitlines()
+# list1 = sorted(list1, key=lambda e: int(e))
+lines_new = sorted(lines_old)
+new = "\n".join(lines_new)
+# print(new)
+editor.setText(new)
